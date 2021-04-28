@@ -387,5 +387,40 @@ h6 {
     width: 100%;
   }
 }
+.container-max-widths {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .page-wrap {
+  height: 50;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+header .page-wrap .logo a img {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+header .page-wrap .logo a span {
+  font-size: 10px;
+}
+header .page-wrap .menu-top {
+  margin-left: 50px;
+}
+header .page-wrap .menu-top ul li {
+  display: inline;
+  margin-right: 10px;
+  height: 50px;
+}
+header .page-wrap .menu-top ul li a {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 1.09375rem;
+}
+header .page-wrap .menu-top ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
 
 /*# sourceMappingURL=styles.css.map */
