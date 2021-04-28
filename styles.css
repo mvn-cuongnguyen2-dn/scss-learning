@@ -387,11 +387,6 @@ h6 {
     width: 100%;
   }
 }
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
 .page-wrap {
   height: 50px;
   border-bottom: 1px solid #ddd;
@@ -480,22 +475,22 @@ h6 {
 .section-featured .newsfeatured {
   width: 65%;
 }
-.section-featured .newsfeatured .newsfeatured-card-left {
+.section-featured .newsfeatured .feature-card-left {
   width: 60%;
   float: left;
 }
-.section-featured .newsfeatured .newsfeatured-card-left .card .card-body {
+.section-featured .newsfeatured .feature-card-left .card .card-body {
   margin-top: 20px;
 }
-.section-featured .newsfeatured .newsfeatured-card-left .card .card-body .card-title {
+.section-featured .newsfeatured .feature-card-left .card .card-body .card-title {
   font-size: 30px;
   margin-bottom: 15px;
 }
-.section-featured .newsfeatured .newsfeatured-card-left .card .card-body .card-text {
+.section-featured .newsfeatured .feature-card-left .card .card-body .card-text {
   margin-bottom: 20px;
   font-size: 0.875rem;
 }
-.section-featured .newsfeatured .newsfeatured-card-right {
+.section-featured .newsfeatured .feature-card-right {
   width: 35%;
   float: right;
 }
