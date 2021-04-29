@@ -389,10 +389,10 @@ h6 {
 }
 .page-wrap {
   height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border-bottom: 1px solid #ddd;
-}
-.page-wrap .logo {
-  float: left;
 }
 .page-wrap .logo a img {
   width: 100px;
@@ -402,12 +402,11 @@ h6 {
 .page-wrap .logo a span {
   font-size: 10px;
 }
-.page-wrap .menu-list {
-  margin-left: 50px;
-  float: left;
+.page-wrap .menu-list ul {
+  display: flex;
+  justify-content: flex-start;
 }
 .page-wrap .menu-list ul li {
-  display: inline;
   margin-right: 10px;
 }
 .page-wrap .menu-list ul li a {
@@ -421,10 +420,6 @@ h6 {
 }
 .page-wrap .menu-list ul li:hover a {
   color: cornflowerblue;
-}
-.page-wrap .toolbox {
-  display: flex;
-  float: right;
 }
 .page-wrap .toolbox .search-wrap {
   position: relative;
