@@ -1,9 +1,11 @@
 .page-wrap {
     height: 50px;
-    // display: flex;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
     border-bottom: 1px solid $gray-color;
     .logo {
-        float: left;
+        // float: left;
         a {
             img {
                 width: 100px;
@@ -17,11 +19,13 @@
     }
 
     .menu-list {
-        margin-left: 50px;
-        float: left;
+        // margin-left: 50px;
+        // float: left;
         ul {
+            display: flex;
+            justify-content: flex-start;
             li {
-                display: inline;
+                // display: inline;
                 margin-right: 10px;
 
                 a {
@@ -40,8 +44,8 @@
         }
     }
     .toolbox {
-        display: flex;
-        float: right;
+        // display: flex;
+        // float: right;
         .search-wrap {
             position: relative;
             input {
